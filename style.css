@@ -101,28 +101,3 @@ text-align: center;
 }
 
 
-@media only screen and (max-device-width: 480px) {
-  div.me {
-      width: 400px;
-  }
-
-  div.headshot {
-      background-image: url(media-queries-phone.jpg);
-      height: 93px;
-      position: relative;
-  }
-
-  div.text {
-      font-size: 140%;
-  }
-
-  body {
-      float: none;
-      width: 100%;
-  }
-
-  .navbar {
-      float:none;
-      width: auto;
-  }
-}

@@ -74,3 +74,28 @@ body {
     display: block;
   }
 
+  h3 { 
+    text-align: center;
+    }
+
+  .headshot { 
+    width: 50%;
+    position: relative;
+  }
+  
+  .me { 
+    display: flex;   
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  
+  .text { 
+    margin: 20px 20px; 
+  }
+  
+  .link { 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  } 

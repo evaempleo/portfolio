@@ -74,3 +74,28 @@ body {
     display: block;
   }
 
+h3 { 
+  text-align: center;
+}
+
+.radio { 
+  text-align: center;
+  font-size: 30px; 
+}
+
+
+.pic { 
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+img, video { 
+  width: 70%; 
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px; 
+}
+
+

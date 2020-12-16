@@ -75,3 +75,28 @@ body {
   }
 
   
+h3 { 
+  text-align: center;
+}
+
+.radio { 
+  text-align: center;
+}
+
+.work { 
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+img, video { 
+  width: 70%; 
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px; 
+}
+
+.viral { 
+  text-align: center;
+}

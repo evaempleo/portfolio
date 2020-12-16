@@ -34,11 +34,31 @@
     </div>
 
     <div> 
-        <h3> Contact me </h3>
-        <p> .... </p>
+        <h1> Contact me </h1>
+        <p> Feel free to email me with any questions or comments! Click the button below: </p>
+        
     </div>
 
+    <form onSubmit="MM_validateForm('name','','R','comments','','R');return document.MM_returnValue" id="contactform">
+    <!--   <label for="name">Full Name:
+        <input name="name" type="text" id="name" required="required"></label>
+  
+        <br /><br />
+      <label for="email">Email:
+      <input name="email" type="email" id="email" required="required"></label>
+      
+      <br /><br />
+      <label for="comments">Comments:
+      <textarea name="comments" id="comments" required></textarea></label>
+    -->
 
+    <input name="submit" type="submit" id="submit" action="mailto:evamarieempleo@gmail.com">
+    </form>
+    
+    <div class="modal">
+      <div class="modal__close">+</div>
+      <div class="modal__message">Thank you!</div>
+    </div>
 
     <script src="main.js"></script>
 </body>

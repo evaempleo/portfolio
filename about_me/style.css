@@ -5,11 +5,6 @@ body {
     padding: 20px;  
   }
 
-  img { 
-    width: 100%; 
-    height: auto;
-  }
-
   .navbar {
     overflow: hidden; 
     background-color: #a8bfeb;

@@ -77,11 +77,6 @@ body {
   h3 { 
     text-align: center;
     }
-
-  .headshot { 
-    width: 50%;
-    position: relative;
-  }
   
   .me { 
     display: flex;   
@@ -91,11 +86,69 @@ body {
   }
   
   .text { 
-    margin: 20px 20px; 
+    margin: 0px 20px; 
   }
   
   .link { 
     display: flex; 
     align-items: center;
     justify-content: center;
+  }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 100px) {
+  p.text { 
+    font-size: 11px;
   } 
+  .header { 
+    width: 100%; 
+    height: auto;
+    display: flex;
+  }
+
+  .headshot { 
+    width: 50%;
+    position: relative;
+  }
+}
+
+
+/* Desktops and laptops minimized ----------- */
+@media only screen
+and (min-width : 481px) {
+  p.text { 
+    font-size: 20px;
+  } 
+
+  .header { 
+    width: 70%; 
+    height: auto;
+    display: flex;
+  }
+
+  .headshot { 
+    width: 30%;
+    position: relative;
+  }
+}
+
+
+/* Desktops and laptops, maximized ----------- */
+@media only screen
+and (min-width : 1224px) {
+  p.text { 
+    font-size: 35px;
+  } 
+
+  .header { 
+    width: 50%; 
+    height: auto;
+    display: flex;
+  }
+
+  .headshot { 
+    width: 20%;
+    position: relative;
+  }
+}

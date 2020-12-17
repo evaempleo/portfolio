@@ -5,11 +5,6 @@ body {
     padding: 20px;  
   }
 
-  .header { 
-    width: 100%; 
-    height: auto;
-  }
-
   .navbar {
     overflow: hidden; 
     background-color: #a8bfeb;
@@ -84,11 +79,6 @@ text-align: center;
   justify-content: center;
 }
 
-.headshot { 
-  width: 50%;
-  position: relative;
-}
-
 .me { 
   display: flex;   
   flex-direction: row;
@@ -96,8 +86,66 @@ text-align: center;
   padding: 20px;
 }
 
-.text { 
-  margin: 20px 20px; 
+ .text { 
+  margin: 0px 10px; 
 }
 
 
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 100px) {
+  p.text { 
+    font-size: 11px;
+  } 
+  .header { 
+    width: 100%; 
+    height: auto;
+    display: flex;
+  }
+
+  .headshot { 
+    width: 50%;
+    position: relative;
+  }
+}
+
+
+/* Desktops and laptops minimized ----------- */
+@media only screen
+and (min-width : 481px) {
+  p.text { 
+    font-size: 20px;
+  } 
+
+  .header { 
+    width: 70%; 
+    height: auto;
+    display: flex;
+  }
+
+  .headshot { 
+    width: 30%;
+    position: relative;
+  }
+}
+
+
+/* Desktops and laptops, maximized ----------- */
+@media only screen
+and (min-width : 1224px) {
+  p.text { 
+    font-size: 35px;
+  } 
+
+  .header { 
+    width: 50%; 
+    height: auto;
+    display: flex;
+  }
+
+  .headshot { 
+    width: 20%;
+    position: relative;
+  }
+}

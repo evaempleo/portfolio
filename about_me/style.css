@@ -112,7 +112,7 @@ and (min-device-width : 100px) {
 
 /* Desktops and laptops minimized ----------- */
 @media only screen
-and (min-width : 481px) {
+and (min-width : 700px) {
   p.text { 
     font-size: 20px;
   } 

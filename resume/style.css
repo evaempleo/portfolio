@@ -79,8 +79,9 @@ body {
 @media only screen
 and (min-device-width : 100px) {
   .header { 
-    width: 50%;
-    position: relative;
+    width: 100%; 
+    height: auto;
+    display: flex;
   }
 }
 
@@ -88,6 +89,8 @@ and (min-device-width : 100px) {
 /* Desktops and laptops minimized ----------- */
 @media only screen
 and (min-width : 481px) {
+ 
+
   .header { 
     width: 70%; 
     height: auto;
